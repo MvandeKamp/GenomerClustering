@@ -1,5 +1,4 @@
 
-```
 # GenomerClustering
 
 Dieses Repository enthält Skripte zur Analyse von Genomdaten.
@@ -21,7 +20,6 @@ Installieren Sie die benötigten Pakete mit `pip`. Öffnen Sie ein Terminal oder
 
 ```bash
 pip install -r requirements.txt
-```
 
 > **Hinweis**: Falls die Datei `requirements.txt` nicht vorhanden ist, überprüfen Sie die Dokumentation oder den Quellcode, um die benötigten Pakete zu identifizieren, und installieren Sie diese manuell mit `pip install paketname`.
 
