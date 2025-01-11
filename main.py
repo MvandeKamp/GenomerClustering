@@ -17,8 +17,8 @@ def load_data(data_path, labels_path):
     return data.values, labels.values.ravel()
 
 # Lokale Pfade zu den Daten
-data_path = r"C:\Users\zerop\PycharmProjects\GenomeClustering\TCGA-PANCAN-HiSeq-801x20531\data.csv"
-labels_path = r"C:\Users\zerop\PycharmProjects\GenomeClustering\TCGA-PANCAN-HiSeq-801x20531\labels.csv"
+data_path = r"../TCGA-PANCAN-HiSeq-801x20531\data.csv"
+labels_path = r"../TCGA-PANCAN-HiSeq-801x20531\labels.csv"
 
 # Daten und Labels laden
 data, true_labels = load_data(data_path, labels_path)
